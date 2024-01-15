@@ -1,10 +1,9 @@
-.app{
-    /* padding: 0 10px; */
+.app {
+  /* padding: 0 10px; */
 }
 
-
 .main-container {
-    padding: 25px;
+  padding: 25px;
 }
 
 .header-container {
@@ -25,33 +24,36 @@
   list-style-type: none;
   gap: 10px;
   cursor: pointer;
+  font-size: 20px;
+  padding-right: 1rem;
+  font-weight: bold;
 }
 
-.res-container{
-    margin: 20px 0;
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+.res-container {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .res-card {
-    width: 250px;
-    padding: 10px;
-    border: 1px solid gainsboro;
-    transition: all 0.05s ease 0s;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  transition: all 0.05s ease 0s;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .res-card:hover {
-    transform: scale(0.95, 0.95);
-    transform-origin: center center;
-    transition: all 0.1s ease-in 0s;
-
+  transform: scale(0.95, 0.95);
+  transform-origin: center center;
+  transition: all 0.1s ease-in 0s;
 }
 
-.rating,.eta,.cusine {
-    margin: 0;
+.rating,
+.eta,
+.cusine {
+  margin: 0;
 }

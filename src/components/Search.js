@@ -1,5 +1,16 @@
-const Search = () => {
-    return <div>Search</div>;
-  };
+const Search = ({ resData }) => {
+  function topRatedHandler() {
+    console.log(
+      "button clicked",
+      resData.filter((i) => i.info.avgRating > 4)
+    );
+  }
 
-  export default Search;
+  return (
+    <button className="filter-btn" onClick={() => topRatedHandler()}>
+      Top Rated
+    </button>
+  );
+};
+
+export default Search;
